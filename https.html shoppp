@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess the Shape</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>Guess the Shape!</h1>
+    <div id="shape-container">
+      <!-- The shapes to be guessed would be displayed here -->
+    </div>
+    <div id="options-container">
+      <!-- The options for the user to choose from would be displayed here -->
+    </div>
+    <div id="coin-counter">
+      Coins: <span id="coin-count">0</span>
+    </div>
+    <div id="shop">
+      <h2>Shop</h2>
+      <p>Choose your background:</p>
+      <div class="background-option" id="background-1">
+        <img src="background-1.jpg" alt="Background 1">
+        <p>Background 1 - 50 coins</p>
+      </div>
+      <div class="background-option" id="background-2">
+        <img src="background-2.jpg" alt="Background 2">
+        <p>Background 2 - 100 coins</p>
+      </div>
+      <div class="background-option" id="background-3">
+        <img src="background-3.jpg" alt="Background 3">
+        <p>Background 3 - 200 coins</p>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
